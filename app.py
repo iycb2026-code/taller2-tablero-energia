@@ -13,7 +13,7 @@ app = dash.Dash(
     __name__,
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
-app.title = "Tablero de energia -Yvonne"
+app.title = "Tablero de energia -Taller 2 -Yvonne"
 
 server = app.server
 app.config.suppress_callback_exceptions = True
